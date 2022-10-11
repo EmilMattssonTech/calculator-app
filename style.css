@@ -3,6 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
   border: 1px solid black;
+  border-radius: 5px;
 }
 
 body {
@@ -54,7 +55,14 @@ body {
 #numbers {
   height: 100px;
   flex-grow: 1;
+  gap: 5px;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+.number {
+  font-size: 20px;
+}
+.number:hover {
+  background-color: blue;
 }
