@@ -2,6 +2,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  border: 1px solid black;
 }
 
 body {
@@ -13,4 +14,25 @@ body {
   height: 700px;
   width: 600px;
   background-color: black;
+}
+#navbar {
+  height: 200px;
+  background-color: orange;
+  width: 100%;
+}
+#header {
+  width: 90px;
+  height: 90px;
+  background-color: pink;
+}
+#lightmode {
+  width: 90px;
+  height: 90px;
+  background-color: white;
+}
+
+#screen-and-numbers {
+  height: 400px;
+  width: 100%;
+  background-color: white;
 }
