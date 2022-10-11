@@ -1,0 +1,16 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+#calculator {
+  margin: 50px auto;
+  height: 700px;
+  width: 600px;
+  background-color: black;
+}
