@@ -19,13 +19,18 @@ body {
   height: 200px;
   background-color: orange;
   width: 100%;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
 }
 #header {
+  flex-grow: 1;
   width: 90px;
   height: 90px;
   background-color: pink;
 }
 #lightmode {
+  flex-grow: 1;
   width: 90px;
   height: 90px;
   background-color: white;
@@ -35,4 +40,19 @@ body {
   height: 400px;
   width: 100%;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+#screen {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+}
+#numbers {
+  height: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
